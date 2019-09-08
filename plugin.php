@@ -65,7 +65,7 @@ function custom_social_media_profiles_shortcode( $atts, $content = null ) {
 	);
 
 	// SVG with IRI ID
-	$svgPath ='/symbol-defs.svg';
+	$svgPath = plugin_dir_url( __FILE__ ) . 'symbol-defs.svg';
 	
 	
 	// Construct output of the social media profiles
