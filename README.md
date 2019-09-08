@@ -10,3 +10,17 @@
  ````html
 [social-media id="2" align="left" target="_blank" rel="" flink="https://www.facebook.com/" tlink="https://twitter.com/" ilink="https://www.instagram.com/" ylink="https://www.youtube.com/" rlink="/" background-color="#000" color="#fff" border-radius="3px" border="0px #444" font-size="50px" padding="6px" hf-background-color="#444" hf-color="#fff" hf-border-color="#444"]
 ````
+````css
+#social-media-profiles-1 .ssi-facebook a {
+  color: #0058bf !important;
+  border-color: #0058bf !important;
+}
+
+#social-media-profiles-1 .ssi-facebook a:hover,
+#social-media-profiles-1 .ssi-facebook a:focus {
+  background-color: #0058bf !important;
+  color: #fff !important;
+  border-color: #0058bf !important;
+
+}
+````
