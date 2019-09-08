@@ -17,7 +17,13 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-//* Create a Social Media Profiles Shortcode
+// Enquque Social Media Profiles Styles.
+add_action( 'wp_enqueue_scripts', 'social_profiles_styles' );
+function ssocial_profiles_styles() {
+	wp_enqueue_style( 'social-profiles', plugin_dir_url( __FILE__ ) .  'style.css', array(), '1.0.0', 'all'  );
+}
+
+// Create a Social Media Profiles Shortcode
 add_shortcode( 'social-media', 'custom_social_media_profiles_shortcode' );
 
 function custom_social_media_profiles_shortcode( $atts, $content = null ) {
