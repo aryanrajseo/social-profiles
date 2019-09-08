@@ -18,9 +18,9 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Enquque Social Media Profiles Styles.
-add_action( 'wp_enqueue_scripts', 'social_profiles_styles' );
-function ssocial_profiles_styles() {
-	wp_enqueue_style( 'social-profiles', plugin_dir_url( __FILE__ ) .  'style.css', array(), '1.0.0', 'all'  );
+add_action( 'wp_enqueue_scripts', 'social_media_profiles_styles' );
+function social_media_profiles_styles() {
+	wp_enqueue_style( 'social-media_profiles', plugin_dir_url( __FILE__ ) .  'style.css', array(), '1.0.0', 'all'  );
 }
 
 // Create a Social Media Profiles Shortcode
