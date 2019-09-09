@@ -1,7 +1,7 @@
 /* Social Media Profiles
 ---------------------------------------------------------------------------- */
-.social-media-profiles svg[class^="smp-"],
-.social-media-profiles svg[class*=" smp-"] {
+.social-profiles svg[class^="sp-"],
+.social-profiles svg[class*=" sp-"] {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -10,16 +10,16 @@
   fill: currentColor;
 }
 
-.social-media-profiles {
+.social-profiles {
   overflow: hidden;
 }
 
-.social-media-profiles ul {
+.social-profiles ul {
   margin: 0;
   padding: 0;
 }
 
-.social-media-profiles ul li {
+.social-profiles ul li {
   background: none !important;
   border: none !important;
   float: left;
@@ -28,7 +28,7 @@
   padding: 0 !important;
 }
 
-.social-media-profiles ul li a {
+.social-profiles ul li a {
   border: none !important;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -45,16 +45,16 @@
   width: 1em;
 }
 
-.social-media-profiles ul.aligncenter {
+.social-profiles ul.aligncenter {
   text-align: center;
 }
 
-.social-media-profiles ul.aligncenter li {
+.social-profiles ul.aligncenter li {
   display: inline-block;
   float: none;
 }
 
-.social-media-profiles .screen-reader-text {
+.social-profiles .screen-reader-text {
   position: absolute;
   width: 1px;
   height: 1px;
