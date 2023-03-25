@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Social Profiles
- * Plugin URI:  https://github.com/rockingaryan/social-profiles
+ * Plugin URI:  https://github.com/aryanrajseo/social-profiles
  * Description: A lightweight & fastest social profiles plugin.
  * Author:      Aryan Raj
  * Author URI:  https://www.aryanraj.com/
